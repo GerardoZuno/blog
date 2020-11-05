@@ -1,0 +1,331 @@
+<style>
+
+.logo{
+	margin: 0px;
+	padding: 0px;
+}
+
+.body {
+	background: blue;
+	vertical-align: middle;
+	
+}
+
+
+.header {
+	margin: 15px;
+	background: pink;
+	font-size: 30px;
+	font-family: fantasy;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	height: 90px;
+	padding: 0px;
+}
+
+.header ol {
+	display: flex;
+	align-items: center;
+	height: inherit;
+}
+
+
+.header a {
+	color: white;
+	text-decoration: none;
+	padding: 0px 20px;
+	display: flex;
+	align-items: center;
+	height: inherit;
+}
+
+.header li {
+	color: black;
+	text-decoration: none;
+	list-style: none;
+	padding: 0px;
+	height: inherit;
+		align-items: center;
+}
+
+.header img{
+	vertical-align: middle;
+}
+
+
+.header menu {
+	height: inherit;
+	align-items: center;
+}
+
+
+.container {
+	border: 1px solid red;
+	width: 1000px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+}
+
+.logo {
+    position-x: right;
+}
+
+.footer{
+
+	background: blue;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 15px;
+
+}
+
+
+.footer img {
+	margin-left: 15px;
+}
+
+.footer p {
+	margin-right: 15px;
+}
+
+.footer1 {
+	width: 300px;
+	
+}
+
+
+.hero {
+	border-style: solid;
+	border-width: 15px;
+	border-color: blue;
+	background: pink;
+	font-family: fantasy;
+	height: 300px;
+   /* background-image: url(../images/hero.jpg); 
+    background-size: 650px 270px;
+    background-repeat: no-repeat;
+    background-position-x: right; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    }
+
+
+
+.hero figure {
+	margin: 0px;
+}
+
+.hero-image {
+	object-fit: cover;
+}
+
+
+.details-project {
+	width: 500px;
+}
+
+
+.image-project {
+   width: 500px;
+   height: 300px;
+}
+
+.portofolio {
+	background: pink;
+	height: 300px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: blue;
+	/*background-image: url(../images/javascript.png);
+    background-size: 650px 270px;
+    background-repeat: no-repeat;
+    background-position-x: right;*/
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+	
+}
+
+
+.portofolio figure {
+	margin: 0px;
+}
+
+.image-
+
+.hello {
+	background: pink;
+	border-style: solid;
+	border-width: 15px;
+	border-color: blue;
+	background-image: url(../images/php.png);
+    background-size: 650px 270px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+
+
+.experience3 {
+	border-style: solid;
+	border-color: blue;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+
+	
+	}
+
+
+.experience3 figure {
+	margin: 0px;
+	border-radius: 10px;
+}
+
+.image-experience {
+
+	margin: 40px;
+}
+
+.experience2{
+	padding: 15px;
+	width: 635px;
+	background-color: pink;
+	margin-right: 30px;
+}
+
+.experience1{
+	padding: 15px;
+	width: 635px;
+	background-color: pink;
+}
+
+.article-experience {
+
+	margin-top: -50px;
+	position: relative;
+	color: white;
+	text-align: center;
+	background-color: blue;
+}
+
+
+
+.contact {
+	background-color: pink;
+	border-style: solid;
+	border-width: 15px;
+	border-color: blue;
+	background-image: url(../images/gerardocanal.jpg);
+    background-size: 650px 270px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.social {
+
+	margin-top: 20px;
+
+	width: 232px;
+	
+}
+
+.social-contact {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-right: 12px;
+
+
+}
+
+
+.social-contact.youtube{
+	background-image: url(../images/youtube.png);
+	background-size: 100px 100px;
+
+
+}
+
+
+
+.social-contact.facebook {
+
+	background-image: url(../images/facebook.png);
+	background-size: 100px 100px;
+
+}
+
+
+.email-form input {
+
+	padding: 5px 20px 5px 25px;
+	background-color: white;
+	border-style: solid;
+	border-radius: 5px;	
+	margin-right:  80px;
+	background-image: url(../images/email.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+
+}
+
+
+.email-form button {
+	background:transparent;
+	color: black;
+	padding: 10px ;
+	border-style: solid;
+	border-radius: 5px;
+	width: 100px;
+} 
+
+
+h2,
+h3 {
+	font-family: fantasy;
+	margin-right: 0px;
+	
+
+}
+
+
+h1 {
+
+	font-family: fantasy;
+	font-size: 40px;
+	line-height: 1.5;
+	letter-spacing: -.2px;
+	text-transform: uppercase;
+	/*margin: 100px 650px 300px 0px;*/
+
+}
+
+h1 strong {
+	color: blue;
+}
+
+</style>
+
