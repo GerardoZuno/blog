@@ -6,7 +6,7 @@
 }
 
 .body {
-	background: yellow;
+	background: red;
 	vertical-align: middle;
 	
 }
@@ -147,8 +147,8 @@
 	/*background-image: url(../images/javascript.png);
     background-size: 650px 270px;
     background-repeat: no-repeat;
-    background-position-x: right;*/
-    box-sizing: border-box;
+    background-position-x: right;
+    box-sizing: border-box;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
