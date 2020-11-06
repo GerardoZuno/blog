@@ -6,7 +6,11 @@
 }
 
 .body {
+<<<<<<< HEAD
 	background: gray;
+=======
+	background: white;
+>>>>>>> lista
 	vertical-align: middle;
 	
 }
