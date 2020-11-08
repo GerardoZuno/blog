@@ -106,7 +106,7 @@
 	background: pink;
 	font-family: fantasy;
 	height: 300px;
-   /* background-image: url(../images/hero.jpg); 
+	/* background-image: url(../images/hero.jpg); 
     background-size: 650px 270px;
     background-repeat: no-repeat;
     background-position-x: right; */
@@ -118,7 +118,10 @@
     
     }
 
-
+.hero-text {
+	padding-top:  35px;
+	padding-bottom: 35px;
+}
 
 .hero figure {
 	margin: 0px;
@@ -128,16 +131,6 @@
 	object-fit: cover;
 }
 
-
-.details-project {
-	width: 500px;
-}
-
-
-.image-project {
-   width: 500px;
-   height: 300px;
-}
 
 .portofolio {
 	background: pink;
@@ -152,7 +145,9 @@
     box-sizing: border-box;*/
     display: flex;
     align-items: center;
-    justify-content: space-between;
+	padding: 15px;
+	box-sizing: border-box;
+	justify-content: space-between;
 
 	
 }
@@ -162,22 +157,35 @@
 	margin: 0px;
 }
 
-.image-
+
+
 
 .hello {
 	background: pink;
 	border-style: solid;
 	border-width: 15px;
 	border-color: blue;
-	background-image: url(../images/php.png);
+	/*background-image: url(../images/php.png);
     background-size: 650px 270px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
     height: 300px;
     padding: 15px;
-    box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
+.hello figure {
+	margin: 0px;
+}
+
+.image-knowledge {
+	width: 500px;
+	height: 270px;
+	
+}
 
 
 
@@ -187,7 +195,7 @@
 	padding: 10px;
 	display: flex;
 	align-items: center;
-
+	
 	
 	}
 
@@ -195,6 +203,7 @@
 .experience3 figure {
 	margin: 0px;
 	border-radius: 10px;
+	
 }
 
 .image-experience {
@@ -204,16 +213,16 @@
 
 .experience2{
 	padding: 15px;
-	width: 635px;
 	background-color: pink;
 	margin-right: 30px;
+	width: 455px;
 }
 
 .experience1{
 	padding: 15px;
-	width: 635px;
+	width: 455px;
 	background-color: pink;
-}
+	}
 
 .article-experience {
 
@@ -231,16 +240,27 @@
 	border-style: solid;
 	border-width: 15px;
 	border-color: blue;
-	background-image: url(../images/gerardocanal.jpg);
+	/*background-image: url(../images/gerardocanal.jpg);
     background-size: 650px 270px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
     height: 300px;
     padding: 15px;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
+	align-items: center;
+	justify-content: space-between;
 
+
+}
+
+.contact figure {
+	margin: 0px;
+}
+
+.image-contact {
+	width: 500px;
+	height: 270px;
 
 }
 
