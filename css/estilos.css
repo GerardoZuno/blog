@@ -63,6 +63,7 @@
 .container {
 	border: 1px solid red;
 	width: 1000px;
+	height: inherit;
 	margin: 0 auto;
 	display: inherit;
 	justify-content: inherit;
@@ -110,7 +111,7 @@
     background-size: 650px 270px;
     background-repeat: no-repeat;
     background-position-x: right; */
-    
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,8 +120,7 @@
     }
 
 .hero-text {
-	padding-top:  35px;
-	padding-bottom: 35px;
+	
 }
 
 .hero figure {
