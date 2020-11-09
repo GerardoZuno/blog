@@ -128,7 +128,8 @@
 }
 
 .hero-image {
-	object-fit: cover;
+	width: 500px;
+	height: 200px;
 }
 
 
